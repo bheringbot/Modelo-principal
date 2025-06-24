@@ -1,18 +1,28 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>LinkZap Bot</title>
-</head>
-<body>
-  <h1>Gerador de Link para WhatsApp</h1>
-  <form id="linkForm">
-    <input type="text" id="numero" placeholder="Número com DDD" required />
-    <textarea id="mensagem" placeholder="Mensagem" required></textarea>
-    <button type="submit">Gerar Link</button>
-  </form>
-  <div id="resultado"></div>
-  <script src="js/main.js"></script>
+<body class="wrapper">
+  <div class="header box">
+    <h1 class="blue">LinkZap Bot</h1>
+  </div>
+
+  <div class="sidebar box">
+    <h2 class="white">Menu</h2>
+    <p class="green">Gerar link</p>
+    <!-- você pode colocar links ou botões aqui -->
+  </div>
+
+  <div class="content box">
+    <h2 class="yellow">Gerador de Links</h2>
+    <form>
+      <label class="purple">Número:</label><br>
+      <input type="text"><br><br>
+
+      <label class="purple">Mensagem:</label><br>
+      <input type="text"><br><br>
+
+      <button class="green">Gerar</button>
+    </form>
+  </div>
+
+  <div class="sidebar2 box">
+    <p class="red">Info do Bot</p>
+  </div>
 </body>
-</html>
