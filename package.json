@@ -2,9 +2,9 @@
   "name": "linkzap-bot",
   "version": "1.0.0",
   "type": "module",
-  "main": "src/index.js",
+  "main": "public/script.js",
   "scripts": {
-    "start": "node src/index.js"
+    "start": "node public/script.js"
   },
   "dependencies": {
     "cors": "^2.8.5",
