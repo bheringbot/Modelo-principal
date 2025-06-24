@@ -1,6 +1,14 @@
-- "main": "public/script.js",
-- "start": "node public/script.js",
-+ "main": "public/index.html",
-+ "scripts": {
-+   "start": "echo \"Este é um site estático, basta abrir public/index.html\""
-+ },
+{
+  "name": "linkzap-bot",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2"
+  }
+}
