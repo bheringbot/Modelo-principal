@@ -4,7 +4,7 @@
 }
 ::-webkit-scrollbar-track,
 ::-webkit-scrollbar-corner {
-  background: #ffffff;
+  background: #444;
 }
 ::-webkit-scrollbar-thumb {
   background: #888;
@@ -80,7 +80,8 @@ p {
   padding: 10px;
   background-color: #191818;
   color: #444;
-  height: auto;
+  width: 100vw;
+  height: 400px;
 }
 
 .header {
