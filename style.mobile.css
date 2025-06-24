@@ -4,7 +4,7 @@
 }
 ::-webkit-scrollbar-track,
 ::-webkit-scrollbar-corner {
-  background: #444;
+  background: #ffffff;
 }
 ::-webkit-scrollbar-thumb {
   background: #888;
@@ -14,7 +14,7 @@
 }
 
 body {
-  background: #ffffff;
+  background: #191818;
   font-family: system-ui;
   margin: 0;
   padding: 0;
