@@ -13,16 +13,15 @@ body {
   background-color: #f0f0f0;
 
 }
-
-
-Menu-incial {
-
-  background: linear-gradient(135deg, #6543d1, #9e00ff);
-
-  height: 300px;
-
-  width: 100vw;
+.modelo1 {
   
+  font-size: 2rem;
+  font-weight: 900;
+  letter-spacing: 1px;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  
+}
+inicio {
   box-shadow: 0 0 30px #8f44fd, 0 0 40px #8f44fd88 inset;
   
   border-radius: 5px;
@@ -32,7 +31,6 @@ Menu-incial {
   animation: pulse 3s ease-in-out infinite;
   
 }
-
 @keyframes pulse {
   0%, 100% {
     transform: scale(1);
@@ -43,4 +41,4 @@ Menu-incial {
     opacity: 0.90;
   }
     
-}
+  }
