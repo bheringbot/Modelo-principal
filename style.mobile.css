@@ -28,8 +28,7 @@ body {
   
   margin-bottom: 40px;
 
-  animation: pulse 3s ease-in-out infinite;
-  
+  animation: pulse 3s ease-in-out infinite;  
 }
 @keyframes pulse {
   0%, 100% {
@@ -41,4 +40,4 @@ body {
     opacity: 0.90;
   }
     
-  }
+}
