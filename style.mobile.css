@@ -15,35 +15,23 @@ body {
 }
 
 
-.modelo1 {
-
-  
-
-  font-size: 2rem;
-
-  font-weight: 900;
-
-  letter-spacing: 1px;
-
-  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
-  
-  text-align: center;
-  
-  padding: 80px;
-
-  
-
+.inicio {
+    background: linear-gradient(135deg, #E53D00, #E06D06);
+    box-shadow: 0 0 30px #8f44fd, 0 0 40px #8f44fd88 inset;
+    border-radius: 5px;
+    margin-bottom: 40px;
+    animation: pulse 3s ease-in-out infinite;
+    width: 100%;
+    padding: 20px;
 }
 
-.inicio {
-  background: linear-gradient(135deg, #E53D00, #E06D06);
-  box-shadow: 0 0 30px #8f44fd, 0 0 40px #8f44fd88 inset;
-  border-radius: 5px;
-  margin-bottom: 40px;
-  animation: pulse 3s ease-in-out infinite;
-  width: 100vw;
-  height: 200px;
-
+.modelo1 {
+    font-size: 2rem;
+    font-weight: 900;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    padding: 10px;
 }
 
 @keyframes pulse {
