@@ -16,6 +16,7 @@ body {
 
 
 .inicio {
+    height: 200px;
     background: linear-gradient(135deg, #E53D00, #E06D06);
     box-shadow: 0 0 30px #8f44fd, 0 0 40px #8f44fd88 inset;
     border-radius: 5px;
