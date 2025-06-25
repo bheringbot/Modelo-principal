@@ -5,15 +5,15 @@ fetch("produtos.json")
   .then(produtos => {
     produtos.forEach(prod => {
       const card = document.createElement("div");
-      card.className = "produto";
+      card.className = "produto-card"; // Aqui aplicamos o estilo certo
+
       card.innerHTML = `
-        <img src="${prod.imagem}" alt="${prod.nome}">
-        <h3>${prod.nome}</h3>
-        <p>${prod.preco}</p>
-        <a href="${prod.link}" target="_blank">
-          <button>Comprar</button>
-        </a>
+        <img src="${prod.imagem}" alt="${prod.nome}" class="produto-img">
+        <p class="produto-nome">${prod.nome}</p>
+        <p class="produto-preco">${prod.preco}</p>
+        <a href="${prod.link}" target="_blank" class="produto-botao">Comprar</a>
       `;
+
       container.appendChild(card);
     });
   })
