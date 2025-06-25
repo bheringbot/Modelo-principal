@@ -21,7 +21,7 @@ body {
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
   
 }
-inicio {
+.inicio {
   box-shadow: 0 0 30px #8f44fd, 0 0 40px #8f44fd88 inset;
   
   border-radius: 5px;
