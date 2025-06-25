@@ -1,126 +1,46 @@
-::-webkit-scrollbar {
-  width: 10px;
-  height: 10px;
-}
-::-webkit-scrollbar-track,
-::-webkit-scrollbar-corner {
-  background: #444;
-}
-::-webkit-scrollbar-thumb {
-  background: #888;
-}
-::-webkit-scrollbar-thumb:hover {
-  background: darkturquoise;
+* {
+
+  margin: 0;
+
+  padding: 0;
+
+  box-sizing: border-box;
+
 }
 
 body {
-  background: #191818;
-  font-family: system-ui;
-  margin: 0;
-  padding: 0;
+
+  background-color: #f0f0f0;
+
 }
 
-h1 {
-  font-size: large;
-  color: darkturquoise;
-}
-h2, h3 {
-  font-size: medium;
-}
-p {
-  font-size: small;
-  font-family: monospace;
-  margin: 4px 0;
-}
 
-.data {
-  color: darkturquoise;
-  font-family: monospace;
-  text-decoration: none;
-}
+Menu-incial {
 
-#refresh {
-  width: 100%;
-  background: #191818;
-  color: darkturquoise;
-}
+  background: linear-gradient(135deg, #6543d1, #9e00ff);
 
-#terminal, #groups-wrapper {
-  width: 100%;
-  height: auto;
-  font-size: x-small;
-  overflow-x: auto;
-}
+  height: 300px;
 
-#avatar {
-  width: 44px;
-  margin-bottom: 10px;
-  border-radius: 50%;
-  border: 2px solid darkturquoise;
-}
-
-#qr {
-  width: 100%;
-  border: 8px solid;
-}
-
-#qr-attempts {
-  margin-top: 6px;
-  margin-bottom: 14px;
-}
-
-.wrapper {
-  display: grid;
-  grid-template-areas:
-    "header"
-    "content"
-    "sidebar"
-    "sidebar2";
-  grid-gap: 1em;
-  padding: 10px;
-  background-color: #191818;
-  color: #444;
   width: 100vw;
-  height: 400px;
-}
-
-.header {
-  grid-area: header;
-  background-color: #252222;
-}
-
-.sidebar {
-  grid-area: sidebar;
-}
-
-.sidebar2 {
-  grid-area: sidebar2;
-  background-color: #252222;
-  color: #fff;
-}
-.sidebar2 > button {
-  width: 100%;
-  margin: 8px 0;
-  background-color: #000;
-  color: darkturquoise;
-  border: 1px solid darkturquoise;
-  cursor: pointer;
-}
-
-.content {
-  grid-area: content;
-}
-
-.box {
-  background-color: #252222;
-  color: #ffffff;
+  
+  box-shadow: 0 0 30px #8f44fd, 0 0 40px #8f44fd88 inset;
+  
   border-radius: 5px;
-  padding: 10px;
+  
+  margin-bottom: 40px;
+
+  animation: pulse 3s ease-in-out infinite;
+  
 }
 
-.yellow { color: #d0cd66; }
-.green { color: #68d066; }
-.red { color: #e64f4f; }
-.purple { color: #dfbdf0; }
-.white { color: darkcyan; }
-.blue { color: rgb(87, 139, 230); }
+@keyframes pulse {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.05);
+    opacity: 0.90;
+  }
+    
+}
