@@ -38,9 +38,10 @@ body {
   width: 100vw;
   min-height: 250px;
   background-color: #ffffff;
+  margin-bottom: 20px;
 }
 .cor-prin {
-  color: 
+  color: #FF9500;
   text-align: right; !important
 }
 
