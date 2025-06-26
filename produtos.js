@@ -1,6 +1,6 @@
 const container = document.getElementById("produtos-container");
 
-fetch("produtos.json")
+fetch("data/produtos.json")
   .then(response => response.json())
   .then(produtos => {
     produtos.forEach(prod => {
