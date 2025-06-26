@@ -34,6 +34,16 @@ body {
     text-align: center;
     padding: 10px;
 }
+.container-1 {
+  width: 100vw;
+  min-height: 250px;
+  background-color: #ffffff;
+}
+.cor-prin {
+  color: 
+  text-align: right; !important
+}
+
 
 @keyframes pulse {
 
