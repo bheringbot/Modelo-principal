@@ -28,7 +28,11 @@ body {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); /* Alinha certinho no centro da div */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   text-align: center;
 }
 
@@ -39,7 +43,7 @@ body {
 
 .titulo {
   text-align: center;
-  sizzing: 20px;
+  font-size: 20px;
   padding: 40px;
   color: #191818;
 }
@@ -52,7 +56,7 @@ body {
 }
 .cor-prin {
   color: #FF9500;
-  text-align: left; !important
+  text-align: left;
 }
 
 
