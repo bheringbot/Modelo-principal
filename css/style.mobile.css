@@ -42,20 +42,21 @@ body {
 
 .titulo {
   text-align: center;
-  font-size: 5vw;
+  font-size: 32px;
   font-weight: 900;
   padding: 40px;
-  color: #e91e63;
-  text-shadow: 2px 2px 5px rgba(0, 0, 0, 1)
+  color: ffffff;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 1)
 }
 
 .area-search {
   display: flex;
   justify-content: center;
   background: linear-gradient(135deg, #6543d1, #9e00ff);
-  border-radius: 12px;
+  border-radius: 16px;
   margin: 30px;
   margin-bottom: 60px;
+  min-height: 80px;
 }
 
 .aba-search {
@@ -75,7 +76,7 @@ body {
   width: 100vw;
   min-height: 250px;
   background-color: #ffffff;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 .cor-prin {
   color: #FF9500;
