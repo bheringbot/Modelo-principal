@@ -5,7 +5,7 @@ fetch("data/categoria.json")
   .then(categorias => {
     categorias.forEach(cate => {
       const card = document.createElement("div");
-      card.className = "card-categoria";
+      card.className = "card-categorias";
       card.innerHTML = `
         <img src="${cate.imagem}" alt="${cate.nome}">
         <span>${cate.nome}</span>
