@@ -17,7 +17,7 @@ body {
 
 .banner {
   position: relative;
-  height: 200px;  
+  height: 250px;  
   border-radius: 5px;
   margin-bottom: 40px;
   width: 100%;
@@ -45,7 +45,8 @@ body {
   text-align: center;
   font-size: 20px;
   padding: 40px;
-  color: #191818;
+  color: #EC0868;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 1)
 }
 
 .container-1 {
