@@ -1,4 +1,4 @@
-const container = document.getElementById("categoria-container");
+const container = document.getElementById("categorias-container");
 
 fetch("data/categoria.json")
   .then(response => response.json())
