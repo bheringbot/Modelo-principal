@@ -47,6 +47,7 @@ body {
   padding: 40px;
   color: ffffff;
   text-shadow: 2px 2px 6px rgba(0, 0, 0, 1)
+  animation: pulse 3s ease-in-out infinite;
 }
 
 .area-search {
