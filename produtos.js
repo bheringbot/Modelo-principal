@@ -1,4 +1,4 @@
-const container = document.getElementById("produtos-container");
+const containerProdutos = document.getElementById("produtos-container");
 
 fetch("data/produtos.json")
   .then(response => response.json())
@@ -14,7 +14,7 @@ fetch("data/produtos.json")
         <a href="${prod.link}" target="_blank" class="produto-botao">Comprar</a>
       `;
 
-      container.appendChild(card);
+      containerProdutos.appendChild(card);
     });
   })
   .catch(erro => {
