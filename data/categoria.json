@@ -1,1 +1,10 @@
-
+[
+  {
+    "nome": "Masculino",
+    "imagem": "img/categorias/masculino.png"
+  },
+  {
+    "nome": "Feminino",
+    "imagem": "img/categorias/feminino.png"
+  }
+]
