@@ -21,3 +21,12 @@ document.querySelector("#form-gerador").addEventListener("submit", function (e) 
   const link = `${config.linkWhatsBase}${numero}?text=${encodeURIComponent(mensagem)}`;
   window.open(link, "_blank");
 });
+const campoBusca = document.getElementById("buscar");
+
+campoBusca.addEventListener("input", () => {
+  const termo = campoBusca.value.toLowerCase();
+  const filtrados = produtosGlobais.filter(prod =>
+    prod.nome.toLowerCase().includes(termo)
+  );
+  exibirProdutos(filtrados);
+});
