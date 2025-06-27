@@ -55,7 +55,7 @@ function filtrarPorCategoria(nomeCategoria) {
 
 // 8) Busca inteligente com Fuse.js
 document.addEventListener("DOMContentLoaded", () => {
-  const campoBusca = document.getElementById("campo-busca"); // input de busca
+  const campoBusca = document.getElementById("buscar"); // input de busca
 
   if (!campoBusca) return;
 
