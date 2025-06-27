@@ -35,6 +35,13 @@ body {
   height: 100%;
 }
 
+.titulo {
+  text-align: center;
+  sizzing: 20px;
+  padding: 40px;
+  color: #191818;
+}
+
 .container-1 {
   width: 100vw;
   min-height: 250px;
