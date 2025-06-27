@@ -1,4 +1,4 @@
-const container = document.getElementById("categorias-container");
+const containerCategorias = document.getElementById("categorias-container");
 
 fetch("data/categoria.json")
   .then(response => response.json())
@@ -10,7 +10,7 @@ fetch("data/categoria.json")
         <img src="${cate.imagem}" alt="${cate.nome}">
         <span>${cate.nome}</span>
       `;
-      container.appendChild(card);
+      containerCategorias.appendChild(card);
     });
   })
   .catch(error => {
