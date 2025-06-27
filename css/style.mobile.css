@@ -49,6 +49,13 @@ body {
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 1)
 }
 
+.area-search {
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(135deg, #6543d1, #9e00ff);
+  border-radius: 12px;
+}
+
 .container-1 {
   width: 100vw;
   min-height: 250px;
