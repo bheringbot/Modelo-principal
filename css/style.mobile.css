@@ -54,6 +54,8 @@ body {
   justify-content: center;
   background: linear-gradient(135deg, #6543d1, #9e00ff);
   border-radius: 12px;
+  margin: 30px;
+  margin-bottom: 60px;
 }
 
 .container-1 {
