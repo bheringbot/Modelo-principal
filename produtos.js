@@ -33,6 +33,3 @@ function filtrarPorCategoria(nomeCategoria) {
   const filtrados = produtosGlobais.filter(p => p.categoria === nomeCategoria);
   exibirProdutos(filtrados);
 }
-  .catch(erro => {
-    console.error("Erro ao carregar os produtos:", erro);
-  });
