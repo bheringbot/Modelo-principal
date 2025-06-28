@@ -29,6 +29,33 @@
     <h3 class="cor-prin" style="margin-bottom: 10px;">Categorias</h3>
     <div class="categorias-container" id="categorias-container"></div>
   </div>
+  
+
+  <script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/11.9.1/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/11.9.1/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyCAtWdFnTNe74b3WtO4dgKO4Ozynp3niyM",
+    authDomain: "modelo-1-c0f02.firebaseapp.com",
+    projectId: "modelo-1-c0f02",
+    storageBucket: "modelo-1-c0f02.firebasestorage.app",
+    messagingSenderId: "800048776602",
+    appId: "1:800048776602:web:cbbc6e1afc866af675e623",
+    measurementId: "G-CNCCX9W5SW"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+  </script>
+
+ 
 
   <link rel="stylesheet" href="css/style.categoria.css">
   <link rel="stylesheet" href="css/style.products.css">
