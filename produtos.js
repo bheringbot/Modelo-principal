@@ -55,20 +55,30 @@ function filtrarPorCategoria(nomeCategoria) {
 
 // 8) Busca inteligente com Fuse.js
 document.addEventListener("DOMContentLoaded", () => {
-  const campoBusca = document.getElementById("buscar"); // input de busca
+  const campoBusca = document.getElementById("buscar");
 
   if (!campoBusca) return;
 
-  campoBusca.addEventListener("input", () => {
-    const termo = campoBusca.value.trim();
-
+  function executarBusca(termo) {
     if (termo === "") {
-      // Se vazio, mostra tudo
       exibirProdutos(produtosGlobais);
     } else {
-      // Fuse retorna um array de { item: produto, score: ... }
       const resultados = fuse.search(termo).map(res => res.item);
       exibirProdutos(resultados);
+    }
+  }
+
+  // Ao digitar (opcional: atualiza em tempo real)
+  campoBusca.addEventListener("input", () => {
+    const termo = campoBusca.value.trim();
+    executarBusca(termo);
+  });
+
+  // Ao apertar Enter
+  campoBusca.addEventListener("keyup", (event) => {
+    if (event.key === "Enter") {
+      const termo = campoBusca.value.trim();
+      executarBusca(termo);
     }
   });
 });
